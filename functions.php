@@ -37,11 +37,24 @@ function rwc_only_free_ship_to_continental_us( $available_methods ) {
 
 	if( in_array( $woocommerce->customer->get_shipping_state(), $excluded_states ) ) {
 		if (array_key_exists ( 'free_shipping' , $available_methods )) {
-         unset($available_methods['free_shipping']);
-      }
+				 unset($available_methods['free_shipping']);
+			}
 	}
 
 	return $available_methods;
 }
+
+
+/**
+* Deprecation Notice
+*/
+function my_error_notice() {
+	?>
+	<div class="error notice">
+		<p><?php _e( "With WooCommerce's 3.0 update and the addition of detailed shipping zone settings the <strong>RWC WooCommerce Only Free Shipping to Continental US</strong> plugin is no longer necessary and will not be further supported or updated. It's highly recommending that this plugin is uninstalled. Learn more about WooCommerce's shopping zones <a href='https://docs.woocommerce.com/document/setting-up-shipping-zones/' target='_blank'>here</a>.", 'my_plugin_textdomain' ); ?></p>
+	</div>
+	<?php
+}
+add_action( 'admin_notices', 'my_error_notice' );
 
 //* That's it, all done!
