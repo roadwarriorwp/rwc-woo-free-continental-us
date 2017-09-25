@@ -11,12 +11,13 @@ Easy plugin which limits WooCommerce free shipping to continental U.S.
 
 == Description ==
 
-**Notice**
-With WooCommerce's 3.0 update and the addition of detailed shipping zone settings this plugin is no longer necessary and will not be further supported or updated. It's highly recommending that this plugin is uninstalled. Learn more about WooCommerce's shopping zones at (https://docs.woocommerce.com/document/setting-up-shipping-zones/).
-
 This plugin, when activated, modifies the default WooCommerce Free Shipping *when limited to the United States* to exclude Alaska, Hawaii, Guam, and Puerto Rico.  Customers in those states/territories will no longer be presented with a free shipping option.  Only cutomers in the continental United States will be able to select free shipping.
 
 PLEASE NOTE: THIS PLUGIN IS OFFERED WITHOUT WARRANTEES AND GUARANTEES.  It is good practice to test plugin additions to any WooCommerce store in a development environment and not on a live site to ensure there are no conflicts with other plugins and that they work as expected.  While this plugin at its current version is tested within the most recent versions of WordPress and WooCommerce, and shown to disable free shipping from customers outside of the continental U.S., WooCommerce and WordPress versions (+ additional plugins/addons) and subsequent compatibility may vary. WE ARE NOT LIABLE for shipping charges in the case of incorrectly applied free shipping.
+
+== Upgrade Notice ==
+
+With WooCommerce's 3.0 update and the addition of detailed shipping zone settings this plugin is no longer necessary and will not be further supported or updated. It's highly recommending that this plugin is uninstalled. Learn more about WooCommerce's shopping zones at (https://docs.woocommerce.com/document/setting-up-shipping-zones/).
 
 == Installation ==
 
