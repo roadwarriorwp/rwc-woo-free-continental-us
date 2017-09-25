@@ -17,7 +17,7 @@ PLEASE NOTE: THIS PLUGIN IS OFFERED WITHOUT WARRANTEES AND GUARANTEES.  It is go
 
 == Upgrade Notice ==
 
-With WooCommerce's 3.0 update and the addition of detailed shipping zone settings this plugin is no longer necessary and will not be further supported or updated. It's highly recommending that this plugin is uninstalled. Learn more about WooCommerce's shopping zones at (https://docs.woocommerce.com/document/setting-up-shipping-zones/).
+With WooCommerce's 3.0 update and the addition of detailed shipping zone settings this plugin is no longer necessary and will not be further supported or updated. It's highly recommending that this plugin is uninstalled. Learn more about WooCommerce's shopping zones [here](https://docs.woocommerce.com/document/setting-up-shipping-zones/).
 
 == Installation ==
 
